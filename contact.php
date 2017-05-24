@@ -19,9 +19,9 @@
 						<ul>
 							<li>Email:  info@icariasailingbarcelona.com</li>
 							<li></li>
-							<li>Tel: Maria (mañanas) -  932210432</li>
-							<li>Tel: Stephen Philpott (english) - 637295714 </li>
-							<li>Tel: Pol Rojas (català & español) -  617870591</li>
+							<li>Tel: Maria (mañanas) -  932210</li>
+							<li>Tel: Stephen Philpott (english) - 637295 </li>
+							<li>Tel: Pol Rojas (català & español) -  617870</li>
 						</ul>
 						<span><a target="blank" href="https://www.facebook.com/pages/Icaria/259589287388874?fref=ts"><i class="page-fb"></i></a></span>
 						
