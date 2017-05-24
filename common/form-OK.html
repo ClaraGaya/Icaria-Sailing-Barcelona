@@ -1,0 +1,59 @@
+<section id="contact" class="blue-theme">
+    <div class="container">
+    	<div class="section-header">
+			<h1>SIGUIENTE PASO... HABLEMOS!</h1>
+    	</div>
+    	<?php  
+
+                // check for a successful form post  
+                if (isset($_GET['s'])) echo "<div class=\"alert alert-success\">".$_GET['s']."</div>";  
+          
+                // check for a form error  
+                elseif (isset($_GET['e'])) echo "<div class=\"alert alert-danger\">".$_GET['e']."</div>";  
+
+		?>
+		<form method="post" action="contactengine.php">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="form-group">
+						<label for="Message">Mensaje <span class="required">*</span></label>
+						<textarea type="text" class="form-control" name="Message" id="Message"></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 form-inline nopadd">
+					<div class="form-group display-table w100">
+						<div class="item col-xs-6 col-md-4">
+							<label for="Name">Nombre <span class="required">*</span></label>
+							<input type="text" class="form-control" name="Name" id="Name" />
+						</div>
+						
+						<div class="item col-xs-6 col-md-4">
+							<label for="Email">Email <span class="required">*</span></label>
+							<input type="text" class="form-control" name="Email" id="Email" />
+						</div>
+						
+						<div class="item col-xs-6 col-md-4">
+							<label for="Company">Empresa</label>
+							<input type="text" class="form-control" name="Company" id="Company" />
+						</div>
+						
+						<div class="item col-xs-6 col-md-4">
+							<label for="Phone">Teléfono</label>
+							<input type="text" class="form-control" name="Phone" id="Phone" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 align">
+					<input type="submit" class="btn mybtn-darkBlue" id="submit" name="submit" value="ENVIAR" />
+				</div>
+			</div>
+			<div class="row">
+				<span class="error"><?php echo $name_error;?></span>
+			</div>
+		</form>
+	</div>
+</section>
