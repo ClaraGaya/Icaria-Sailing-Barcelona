@@ -73,7 +73,7 @@ if (isset($_POST['submit'])){
 	
 	//proceed if all fields validate
 	if ($correct) {
-		$email_to  = "clara.xarxes@gmail.com, info@icariasailingbarcelona.com, buffalino666@hotmail.com";
+		$email_to  = "buffalino666@hotmail.com";
 		$subject ="Webmail";
 		
 		//set message 
