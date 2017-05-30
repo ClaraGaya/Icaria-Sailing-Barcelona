@@ -9,6 +9,7 @@ They loved it!
 You'll need to set up a localhost on your computer to be able to run this project, I used php to be able to include common files instead of repeating everythime.
 
 ## Built With
+- Adobe Illustrator/Photoshop
 - HTML/PHP 
 - LESS/CSS
 - Bootstrap 3
