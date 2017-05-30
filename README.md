@@ -7,6 +7,7 @@ They loved it!
 
 ### Prerequisites
 You'll need to set up a localhost on your computer to be able to run this project, I used php to be able to include common files instead of repeating everythime.
+Alternatively you can visit the site at http://icariasailingbarcelona.com/ 
 
 ## Built With
 - Adobe Illustrator/Photoshop
